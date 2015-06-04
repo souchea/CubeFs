@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ad87e112-b393-4cad-b1e2-08eba1f5e98b</ProjectGuid>
+    <ProjectGuid>a57f1e09-016f-4703-a6b5-05811d5a657f</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>CubeFs</RootNamespace>
     <AssemblyName>CubeFs</AssemblyName>
@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="RubiksCube.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
